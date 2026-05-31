@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de projetos da Projetch Inovações — e-commerce, apps com IA, sistemas, PWA e segurança digital.">
+  <title>Projetch Inovações | Projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ LOADING SCREEN ══ -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-logo">PROJETCH</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav role="navigation" aria-label="Navegação principal">
+  <a class="nav-logo" href="index.html" aria-label="Projetch Inovações — Página inicial">
+    <img src="logo_Projetch.png" alt="Logo Projetch" onerror="this.style.display='none'">
+    <div class="nav-logo-text">PROJETCH<br><span>INOVAÇÕES</span></div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+    <li><a href="projetos.html">Projetos</a></li>
+    <li><a href="contato.html" class="nav-cta">Solicitar Projeto</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══ MOBILE MENU ══ -->
+<nav class="mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+  <a href="index.html">Início</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="projetos.html">Projetos</a>
+  <a href="contato.html">Solicitar Projeto</a>
+</nav>
+
+<!-- ══ PAGE HEADER ══ -->
+<header class="page-header">
+  <div class="section-label reveal">Portfólio</div>
+  <h1 class="section-title reveal">Nossos <span class="hl">Projetos</span></h1>
+  <p class="section-sub reveal">Soluções modernas entregues com foco em performance, segurança e resultado real para nossos clientes.</p>
+</header>
+
+<!-- ══ GRID DE PROJETOS ══ -->
+<main>
+  <div class="projects-grid" role="list" aria-label="Portfólio de projetos">
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">🛍️</div>
+          <div class="p-tag">E-COMMERCE</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>Plataforma E-commerce</h3>
+        <p>Loja virtual completa com catálogo, carrinho, pagamentos integrados e painel administrativo personalizado.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Segurança</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">🏢</div>
+          <div class="p-tag">INSTITUCIONAL</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>Site Institucional Corporativo</h3>
+        <p>Site responsivo para empresa do setor financeiro, com SEO otimizado, animações modernas e integração CMS.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>SEO</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">🤖</div>
+          <div class="p-tag">IA + APP</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>App com IA Integrada</h3>
+        <p>Aplicativo web com análise de dados via inteligência artificial, dashboards em tempo real e autenticação segura.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>Python</span><span>IA</span><span>React</span><span>API REST</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">📊</div>
+          <div class="p-tag">SISTEMA</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>Sistema de Gestão</h3>
+        <p>Sistema completo de gestão empresarial com banco de dados integrado, controle de estoque e relatórios automáticos.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>Node.js</span><span>MySQL</span><span>Dashboard</span><span>GitHub</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">📱</div>
+          <div class="p-tag">MOBILE WEB</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>PWA Mobile-First</h3>
+        <p>Progressive Web App com experiência nativa no celular, notificações push e funcionamento offline completo.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>PWA</span><span>JavaScript</span><span>Responsivo</span><span>Acessível</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal" role="listitem">
+      <div class="project-thumb">
+        <div class="project-thumb-overlay"></div>
+        <div class="project-thumb-content">
+          <div class="p-icon" aria-hidden="true">🔐</div>
+          <div class="p-tag">SEGURANÇA</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3>Portal Seguro Corporativo</h3>
+        <p>Plataforma com autenticação em dois fatores, criptografia de dados e auditoria completa de todos os acessos.</p>
+        <div class="project-tags" aria-label="Tecnologias utilizadas">
+          <span>Segurança</span><span>2FA</span><span>Criptografia</span><span>Logs</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section" aria-labelledby="cta-title">
+  <h2 class="reveal" id="cta-title">Quer fazer parte do<br>nosso <span class="hl">portfólio?</span></h2>
+  <p class="reveal">Solicite seu projeto e vamos criar algo incrível juntos.</p>
+  <a class="btn-primary reveal" href="contato.html">Iniciar Projeto</a>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="logo_Projetch.png" alt="Projetch" onerror="this.style.display='none'">
+        <div class="fb-logo-text">PROJETCH<br><span>INOVAÇÕES</span></div>
+      </div>
+      <p>Criamos sites e aplicativos modernos com foco em performance, segurança e inovação digital.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Projetos</h5>
+      <ul>
+        <li><a href="projetos.html">E-commerce</a></li>
+        <li><a href="projetos.html">Aplicativos</a></li>
+        <li><a href="projetos.html">Sistemas</a></li>
+        <li><a href="projetos.html">Mobile</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <ul>
+        <li><a href="mailto:projetechinovacoes@gmail.com">projetechinovacoes@gmail.com</a></li>
+        <li><a href="contato.html">Solicitar Projeto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Projetch Inovações. Todos os direitos reservados.</p>
+    <p>Feito com 💙 pela <a href="index.html">Projetch</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="main.js"></script>
+</body>
+</html>

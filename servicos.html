@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Serviços da Projetch Inovações — criação de sites, aplicativos, IA, banco de dados, segurança digital, SEO e consultoria.">
+  <title>Projetch Inovações | Serviços</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ LOADING SCREEN ══ -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-logo">PROJETCH</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav role="navigation" aria-label="Navegação principal">
+  <a class="nav-logo" href="index.html" aria-label="Projetch Inovações — Página inicial">
+    <img src="logo_Projetch.png" alt="Logo Projetch" onerror="this.style.display='none'">
+    <div class="nav-logo-text">PROJETCH<br><span>INOVAÇÕES</span></div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+    <li><a href="projetos.html">Projetos</a></li>
+    <li><a href="contato.html" class="nav-cta">Solicitar Projeto</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══ MOBILE MENU ══ -->
+<nav class="mobile-menu" id="mobile-menu" aria-label="Menu mobile">
+  <a href="index.html">Início</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="projetos.html">Projetos</a>
+  <a href="contato.html">Solicitar Projeto</a>
+</nav>
+
+<!-- ══ PAGE HEADER ══ -->
+<header class="page-header">
+  <div class="section-label reveal">O que oferecemos</div>
+  <h1 class="section-title reveal">Nossos <span class="hl">Serviços</span></h1>
+  <p class="section-sub reveal">Soluções digitais completas, modernas e seguras para o seu negócio crescer na internet.</p>
+</header>
+
+<!-- ══ CARDS DE SERVIÇO ══ -->
+<main>
+  <div class="services-grid" role="list" aria-label="Lista de serviços">
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🌐</div>
+      <h3>Criação de Sites</h3>
+      <p>Sites rápidos, com design responsivo e acessível. Desenvolvemos landing pages, sites institucionais, portfólios e e-commerces com foco em conversão e performance.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">📱</div>
+      <h3>Aplicativos Web</h3>
+      <p>Desenvolvimento de apps modernos com integração de IA e controle via GitHub. Apps web e mobile que entregam experiência excepcional ao usuário final.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🛠️</div>
+      <h3>Suporte ao Cliente</h3>
+      <p>Atendimento contínuo, manutenção, atualização e suporte dedicado 24h para garantir o funcionamento pleno e seguro do seu sistema.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🗄️</div>
+      <h3>Banco de Dados</h3>
+      <p>Sistemas com banco de dados integrado — PostgreSQL, MySQL e mais — para armazenamento seguro, eficiente e escalável das suas informações empresariais.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🤖</div>
+      <h3>IA Integrada</h3>
+      <p>Integramos inteligência artificial aos seus sistemas para automatizar processos, aumentar eficiência e oferecer insights valiosos para o seu negócio crescer.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🔒</div>
+      <h3>Segurança Digital</h3>
+      <p>Proteção de dados, boas práticas e sistemas seguros contra ameaças cibernéticas. Criptografia, autenticação em dois fatores e auditoria completa.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🚀</div>
+      <h3>SEO &amp; Performance</h3>
+      <p>Otimização para motores de busca e performance máxima. Sites rápidos que rankeiam no Google e convertem visitantes em clientes reais.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">🐙</div>
+      <h3>Versionamento GitHub</h3>
+      <p>Controle profissional de versões com GitHub, garantindo histórico completo, colaboração em equipe e deploys seguros e bem organizados.</p>
+    </article>
+
+    <article class="service-card reveal" role="listitem">
+      <div class="service-icon" aria-hidden="true">📊</div>
+      <h3>Consultoria Digital</h3>
+      <p>Analisamos sua presença digital e traçamos a melhor estratégia tecnológica para o seu negócio crescer de forma sustentável e eficiente.</p>
+    </article>
+
+  </div>
+
+  <!-- ══ DIFERENCIAIS ══ -->
+  <section class="home-diff" aria-labelledby="diff-title">
+    <div class="section-head center">
+      <div class="section-label reveal">Por que a Projetch</div>
+      <h2 class="section-title reveal" id="diff-title">Nossos <span class="hl">Diferenciais</span></h2>
+      <p class="section-sub reveal">O que nos torna diferentes de qualquer outra agência de tecnologia.</p>
+    </div>
+    <div class="home-diff-grid">
+      <article class="diff-card reveal">
+        <span class="diff-icon" aria-hidden="true">⚡</span>
+        <h4>Entrega Ágil</h4>
+        <p>Projetos entregues no prazo, com metodologia ágil e comunicação clara em cada etapa do processo.</p>
+      </article>
+      <article class="diff-card reveal">
+        <span class="diff-icon" aria-hidden="true">📐</span>
+        <h4>Design Responsivo</h4>
+        <p>100% adaptado para celular, tablet e desktop com experiência perfeita em qualquer resolução.</p>
+      </article>
+      <article class="diff-card reveal">
+        <span class="diff-icon" aria-hidden="true">♿</span>
+        <h4>Acessibilidade</h4>
+        <p>Interfaces pensadas para todos os usuários, seguindo padrões WCAG de acessibilidade digital.</p>
+      </article>
+      <article class="diff-card reveal">
+        <span class="diff-icon" aria-hidden="true">🔄</span>
+        <h4>Suporte Pós-entrega</h4>
+        <p>Acompanhamento contínuo após o lançamento para garantir que tudo funcione perfeitamente.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section" aria-labelledby="cta-title">
+  <h2 class="reveal" id="cta-title">Qual serviço você <span class="hl">precisa?</span></h2>
+  <p class="reveal">Preencha nosso formulário e receba uma proposta personalizada em até 24h.</p>
+  <a class="btn-primary reveal" href="contato.html">Solicitar Agora</a>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="logo_Projetch.png" alt="Projetch" onerror="this.style.display='none'">
+        <div class="fb-logo-text">PROJETCH<br><span>INOVAÇÕES</span></div>
+      </div>
+      <p>Criamos sites e aplicativos modernos com foco em performance, segurança e inovação digital.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Serviços</h5>
+      <ul>
+        <li><a href="servicos.html">Criação de Sites</a></li>
+        <li><a href="servicos.html">Aplicativos</a></li>
+        <li><a href="servicos.html">Segurança</a></li>
+        <li><a href="servicos.html">Consultoria</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <ul>
+        <li><a href="mailto:projetechinovacoes@gmail.com">projetechinovacoes@gmail.com</a></li>
+        <li><a href="contato.html">Solicitar Projeto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Projetch Inovações. Todos os direitos reservados.</p>
+    <p>Feito com 💙 pela <a href="index.html">Projetch</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="main.js"></script>
+</body>
+</html>
